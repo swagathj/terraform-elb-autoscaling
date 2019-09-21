@@ -7,7 +7,7 @@ terraform plan
 
 terraform apply -target=module.vpc
 
-#Note: 1. Create Target Group First
+  #Note: 1. Create Target Group First
   #    2. Create Application Load Balancer
   #    3. Create Auto-Scaling Group
 
