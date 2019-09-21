@@ -16,6 +16,8 @@
 
 Note: Go to the AWS traget group and copy the ARN paste in application-lb-module.tf in place of "target-group-arn". And also create ACM certificate and add in application-lb-moudle.tf file
 
+# Below is the examples:
+
   certificate-arn = "arn:aws:acm:ap-south-1:499347118524:certificate/68dfb665-a8e6-4579-9b43-e4a4c50e6cda"
   target-group-arn = "arn:aws:elasticloadbalancing:ap-south-1:499347118524:targetgroup/cloudelligent-tg/9b2756e0c63594f1"
 
