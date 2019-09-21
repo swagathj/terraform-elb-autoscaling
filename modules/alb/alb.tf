@@ -50,5 +50,5 @@ resource "aws_lb_target_group" "frontend-target-group" {
 resource "aws_alb_target_group_attachment" "frontend-attachments" {
   count = "${length(var.no-of-frontend-attachments)}"
   target_group_arn = "${aws_lb_target_group.frontend-target-group.arn}"
-  target_id = "${element(var.no-of-frontend-attachments,count.index )}"
+  target_id = "$element(var.no-of-frontend-attachments,count.index )"
 }

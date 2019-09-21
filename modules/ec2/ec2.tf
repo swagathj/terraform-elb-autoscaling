@@ -32,8 +32,8 @@ resource "aws_instance" "ec2" {
   user_data = "${var.user-data}"
 
 # MULTIPLE SUBNETS IDS
-  subnet_id = "${element(var.ec2-subnets-ids,count.index)}"
-  vpc_security_group_ids = ["${var.vpc-security-group-ids}"]
+  subnet_id = "$element(var.ec2-subnets-ids,count.index)"
+  vpc_security_group_ids = [var.vpc-security-group-ids]
   tags = {
     Name= "${var.instance-name-taq}-${count.index+1}"
   }
