@@ -22,4 +22,6 @@ Note: Go to the AWS traget group and copy the ARN paste in application-lb-module
   target-group-arn = "arn:aws:elasticloadbalancing:ap-south-1:499347118524:targetgroup/cloudelligent-tg/9b2756e0c63594f1"
 
 #--> terraform apply -target=module.app-alb
+
+
 #--> terraform apply -target=module.auto-scaling
