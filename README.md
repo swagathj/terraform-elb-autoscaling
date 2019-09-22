@@ -1,10 +1,10 @@
-What is Terraform?
+#What is Terraform?
 
 Terraform is a tool made by Hashicorp for building, changing, and versioning infrastructure safely and efficiently. Terraform can manage existing and popular service providers ( aws, azure, Google cloud) as well as custom in-house solutions.
 
 You can compare Terraform to Cloudformation . They are simililar but at the same time have differences.
 
-Steps to provision
+#Steps to provision
 
 1. Download the terraform binary file https://www.terraform.io/downloads.html
 If MAC users have homebrew installed on their machine: Just do: brew install terraform Go to step 5
