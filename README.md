@@ -26,7 +26,7 @@ For Mac/Linux. On the shell/terminal, go to the folder where terraform binary is
 
 # terraform-elb-autoscaling
 
-# First create the VPC using the terraform script. Follow the below steps to initialize your modules and plugins.
+# First create the VPC using the terraform script. Follow the below steps to initialize your modules and plugins then apply your terraform.
   
 #--> terraform init
 
